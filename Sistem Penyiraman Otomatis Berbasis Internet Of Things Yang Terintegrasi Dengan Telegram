@@ -18,8 +18,8 @@ char ssid[] = "kambing";     // Nama WIFI
 char password[] = "1sampai7"; // Password Wifi
 
 // Initialize Telegram BOT
-#define BOTtoken "1104629136:AAEQopjY4po7HPNTIxuOExFSjuWihPCDLRU"  // Bot Token Anda (Dapatkan dari Botfather)
-#define CHAT_ID "785426330"  //dapatkan dari @getid
+#define BOTtoken "masukan token telegrammu disini"  // Bot Token Anda (Dapatkan dari Botfather)
+#define CHAT_ID "masukan idchatmu disini"  //dapatkan dari @getid
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
